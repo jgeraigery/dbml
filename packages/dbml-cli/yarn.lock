@@ -703,11 +703,12 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dbml/core@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@dbml/core/-/core-2.4.2.tgz#911ceb14c316dc525e2f3e5aa6764378fc2975fd"
-  integrity sha512-QBBF3Hg7sIGY8oKdt5ZBa7+umsadDQqQ+TJGUn+D9UI5uDOAS5tu52cB1e3DnMawGEC2CiwcgQuecqM1VPKsqA==
+"@dbml/core@^2.4.3":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@dbml/core/-/core-2.6.1.tgz#f35b1e363be4dc00392342fa8c3189abcc479fd3"
+  integrity sha512-nMV29od8aTRPiuhsBS1EQOouKgqqTFhZPwMx0gsspgWaBRCXP7biusvhws8KfCm1X0P27CRjH1GCbuyCF5xWZQ==
   dependencies:
+    antlr4 "^4.13.1"
     lodash "^4.17.15"
     parsimmon "^1.13.0"
     pluralize "^8.0.0"
@@ -1031,6 +1032,11 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   integrity sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==
   dependencies:
     color-convert "^1.9.0"
+
+antlr4@^4.13.1:
+  version "4.13.2"
+  resolved "https://registry.yarnpkg.com/antlr4/-/antlr4-4.13.2.tgz#0d084ad0e32620482a9c3a0e2470c02e72e4006d"
+  integrity sha512-QiVbZhyy4xAZ17UPEuG3YTOt8ZaoeOR1CvEAqrEsDBsOqINslaB147i9xqljZqoyf5S+EUlGStaj+t22LT9MOg==
 
 anymatch@^2.0.0:
   version "2.0.0"
@@ -3324,6 +3330,11 @@ lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 logform@^2.1.1:
   version "2.1.2"
